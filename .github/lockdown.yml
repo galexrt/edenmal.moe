@@ -9,7 +9,7 @@ exemptLabels:
   - blogpost
 
 # Comment to post before closing or locking. Set to `false` to disable
-comment: false
+comment: true
 
 # Label to add before closing or locking. Set to `false` to disable
 label: false
@@ -19,6 +19,9 @@ close: true
 
 # Lock issues and pull requests
 lock: true
+
+# Limit to only `issues` or `pulls`
+only: pulls
 
 pulls:
   comment: >
