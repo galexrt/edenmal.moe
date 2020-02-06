@@ -1,0 +1,26 @@
+# Configuration for Repo Lockdown - https://github.com/dessant/repo-lockdown
+
+# Skip issues and pull requests created before a given timestamp. Timestamp must
+# follow ISO 8601 (`YYYY-MM-DD`). Set to `false` to disable
+skipCreatedBefore: false
+
+# Issues and pull requests with these labels will be ignored. Set to `[]` to disable
+exemptLabels:
+  - blogpost
+
+# Comment to post before closing or locking. Set to `false` to disable
+comment: false
+
+# Label to add before closing or locking. Set to `false` to disable
+label: false
+
+# Close issues and pull requests
+close: true
+
+# Lock issues and pull requests
+lock: true
+
+pulls:
+  comment: >
+    This repository does not accept pull requests, see the README.md for details.
+  lock: true
