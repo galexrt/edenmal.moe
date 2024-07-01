@@ -1,5 +1,9 @@
 # edenmal.moe
 
+## DEPRECATED
+
+My new website does not have a comment system at the moment.
+
 To comment just use the comment form at the bottom of each blog post or checkout the existing
 [GitHub issues](https://github.com/galexrt/edenmal.moe/labels/blogpost) for ongoing comment threads.
 
